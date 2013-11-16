@@ -12,6 +12,7 @@ package 'php5-cli'
 package 'php5-xdebug'
 package 'php5-apc'
 package 'php5-curl'
+package 'php5-mcrypt'
 
 timezonefile = File.join('/etc/php5/conf.d/', 'timezone.ini')
 template timezonefile do
